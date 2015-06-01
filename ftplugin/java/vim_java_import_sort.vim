@@ -18,6 +18,6 @@ endOfPython
 endfunction
 
 " --------------------------------
-"  Expose our commands to the user
+"  Sort automatically on read and write
 " --------------------------------
 au BufWritePre,BufRead *.java call JavaImportSort()
